@@ -68,7 +68,7 @@ site_name: Penguin Ice Land
 site_url: https://qiaowuyan.github.io/
 theme:
   custom_dir: overrides
-  favicon:  logo: asset/DSC_3222.JPG
+  favicon: asset/DSC_3222.JPG
   features:
   - navigation.tabs
   font:

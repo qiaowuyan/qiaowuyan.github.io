@@ -68,14 +68,14 @@ site_name: Penguin Ice Land
 site_url: https://qiaowuyan.github.io/
 theme:
   custom_dir: overrides
-  favicon: asset/black_circle_rabbit.png
+  favicon:  logo: asset/DSC_3222.JPG
   features:
   - navigation.tabs
   font:
     code: Fira Mono
     text: Fira Sans
   language: en
-  logo: asset/black_circle_rabbit.png
+  logo: asset/DSC_3222.JPG
   name: material
   palette:
     primary: black

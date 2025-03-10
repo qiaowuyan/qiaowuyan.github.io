@@ -62,9 +62,9 @@ nav:
   - lecture1: posts/Conservative_Genetics/lecture1.md
 plugins:
 - search
-repo_name: qiaowuyan pages
+repo_name: Qiaowuyan Pages
 repo_url: https://github.com/qiaowuyan/qiaowuyan.github.io
-site_name: Penguin Iceland
+site_name: Penguin Ice Land
 site_url: https://qiaowuyan.github.io/
 theme:
   custom_dir: overrides

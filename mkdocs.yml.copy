@@ -1,0 +1,114 @@
+extra:
+  pagetime: 'on'
+  search:
+    language: cn
+extra_css:
+- from_oi_wiki/css/extra.css?v=13
+extra_javascript:
+- from_oi_wiki/js/extra.js?v=16
+- js/mathjax.js
+- https://polyfill.io/v3/polyfill.min.js?features=es6
+- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+markdown_extensions:
+- nl2br
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- toc:
+    permalink: true
+    slugify: !!python/name:pymdownx.slugs.uslugify ''
+- admonition
+- abbr
+- attr_list
+- def_list
+- footnotes
+- meta
+- md_in_html
+- pymdownx.arithmatex:
+    generic: true
+- pymdownx.betterem:
+    smart_enable: all
+- pymdownx.caret
+- pymdownx.critic
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_generator: !!python/name:materialx.emoji.to_svg ''
+    emoji_index: !!python/name:materialx.emoji.twemoji ''
+- pymdownx.highlight
+- pymdownx.inlinehilite
+- pymdownx.keys
+- pymdownx.magiclink:
+    repo: mkdocs-material
+    repo_url_shorthand: true
+    user: squidfunk
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.superfences:
+    custom_fences:
+    - class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ''
+      name: mermaid
+- pymdownx.tabbed
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
+nav:
+- RABBIT:
+  - ME: index.md
+- ALGO:
+  - ALGO: posts/ALGO/index.md
+  - MST_survey: posts/ALGO/MST_survey.md
+  - Competitive_Contest:
+    - KMP: posts/ALGO/Competitive_Contest/KMP.md
+    - Minimize_The_Number_of_Swaps_to_Sort_List: posts/ALGO/Competitive_Contest/Minimize_The_Number_of_Swaps_to_Sort_List.md
+    - assets: []
+    - Connectivity - Strongly Connected Component: posts/ALGO/Competitive_Contest/Connectivity
+        - Strongly Connected Component.md
+    - Sieve of Euler: posts/ALGO/Competitive_Contest/Sieve of Euler.md
+- Crypto:
+  - Crypto: posts/Crypto/index.md
+  - RSA: posts/Crypto/RSA.md
+  - attachments: []
+  - Zero Knowledge Proof: posts/Crypto/Zero Knowledge Proof.md
+  - Further_Read: posts/Crypto/Further_Read.md
+- MATH:
+  - MATH: posts/MATH/index.md
+  - FFT: posts/MATH/FFT.md
+  - Combinatorial_Maths:
+    - Burnside's_Lemma: posts/MATH/Combinatorial_Maths/Burnside's_Lemma.md
+  - MISCS:
+    - Continuous, all direction derivative exist but not differentiable: posts/MATH/MISCS/Continuous,
+        all direction derivative exist but not differentiable.md
+  - Linear_Algebra:
+    - Chpater 3: posts/MATH/Linear_Algebra/Chpater 3.md
+  - Interesting Puzzle or Paper: posts/MATH/Interesting Puzzle or Paper.md
+- CPP:
+  - CPP: posts/CPP/index.md
+  - CRTP: posts/CPP/CRTP.md
+  - UB:
+    - infinite_loop: posts/CPP/UB/infinite_loop.md
+  - Further Read: posts/CPP/Further Read.md
+- About:
+  - About: posts/About/index.md
+  - Bachelor Courses Description: posts/About/Bachelor Courses Description.md
+plugins:
+- search
+- callouts
+repo_name: 27rabbitlt pages
+repo_url: https://github.com/27rabbitlt/27rabbitlt.github.io
+site_name: RABBIT HOLE
+site_url: https://27rabbitlt.github.io/
+theme:
+  custom_dir: overrides
+  favicon: asset/black_circle_rabbit.png
+  features:
+  - navigation.tabs
+  font:
+    code: Fira Mono
+    text: Fira Sans
+  language: en
+  logo: asset/black_circle_rabbit.png
+  name: material
+  palette:
+    primary: black
+    scheme: default

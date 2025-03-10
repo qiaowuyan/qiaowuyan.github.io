@@ -1,4 +1,4 @@
-<a href="https://qiaowuyan.github.io/" target="_blank"><img src="https://s2.loli.net/2022/10/29/18ZgLzKGpmIV5NJ.jpg" ></a>
+<a href="https://qiaowuyan.github.io/" target="_blank"><img src="asset/网页签名.png" ></a>
 ## HELLO WORLD 🐧
 It's @Qiaowuyan speaking, a master student at ETH Zurich, majoring at Ecology and Evolution. Hope to make great contribution to our planet.
 

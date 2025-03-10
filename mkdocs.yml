@@ -57,6 +57,9 @@ nav:
   - ME: index.md
 - About:
   - About: posts/About/index.md
+- Conservative_Genetics:
+  - Conservative_Genetics: posts/Conservative_Genetics/index.md
+  - lecture1: posts/Conservative_Genetics/lecture1.md
 plugins:
 - search
 repo_name: qiaowuyan pages
